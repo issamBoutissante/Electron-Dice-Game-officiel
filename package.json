@@ -1,0 +1,26 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "this is a dice game for desktop and it was builded by Chaimae Mazzouz and Boutissante issam",
+  "main": "index.js",
+  "build": {
+    "appId": "boutissante.mazzouz",
+    "win": {
+      "icon": "./icon.ico"
+    },
+    "mac": {
+      "icon": "./icon.ico"
+    }
+  },
+  "homepage": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Chaimae Mazzouz && Boutissante issam",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
